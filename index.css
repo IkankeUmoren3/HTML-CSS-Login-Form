@@ -10,19 +10,83 @@ body{
 
 .first{
     display: flex;
-    width: 800px;
+    width: fit-content;
     margin: auto;
-    /* box-shadow: 1px 5px gray; */
+    background-color: transparent;
+    box-shadow: 1px 2px 15px gray;
+    height: 500px;
+    margin-top: 40px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    border-top-right-radius:20px ;
+   border-bottom-right-radius:20px ;
+}
+.maindiv{
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+.log{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 30px;
+}
+.fan{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 8px;
+}
+.twit{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 2px 5px;
+}
+.use{
+    margin-top: 50px;
+    font-size: 15px;
+}
+#email{
+    padding: 10px 10px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: rgba(235, 232, 232, 0.975);
+    border: none;
+}
+#word{
+    padding: 10px 10px;
+    width: 300px;
+    background-color: rgba(235, 232, 232, 0.975);
+    border: none;
+}
+.forgot{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.login{
+    margin-top: 20px;
+    padding: 15px 70px;
+    border-radius: 30px;
+    background-color: tomato;
+    color: white;
+    border: none;
 }
 
 .subdiv{
     
     text-align:center ;
     background-image:linear-gradient(to right, rgb(255, 70, 126), rgb(224, 74, 132)) ;
-    border: 1px solid palevioletred;
    padding: 200px 15px;
-   width: 500px;
+   width: 400px;
    color: white;
-   border-radius: 7px;
    font-size: large;
+   border-top-right-radius:20px ;
+   border-bottom-right-radius:20px ;
 }
