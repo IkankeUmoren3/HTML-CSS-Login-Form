@@ -12,9 +12,17 @@ body{
     display: flex;
     width: 800px;
     margin: auto;
-    box-shadow: 1px 5px gray;
+    /* box-shadow: 1px 5px gray; */
 }
 
 .subdiv{
-    background-image:linear-gradient(to right rgb(255, 70, 126) rgb(226, 54, 120)) ;
+    
+    text-align:center ;
+    background-image:linear-gradient(to right, rgb(255, 70, 126), rgb(224, 74, 132)) ;
+    border: 1px solid palevioletred;
+   padding: 200px 15px;
+   width: 500px;
+   color: white;
+   border-radius: 7px;
+   font-size: large;
 }
