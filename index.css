@@ -10,16 +10,23 @@ body{
 
 .first{
     display: flex;
-    width: 800px;
+    width: fit-content;
     margin: auto;
-    box-shadow: 1px 2px gray;
+    background-color: transparent;
+    box-shadow: 1px 2px 15px gray;
     height: 500px;
     margin-top: 40px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    border-top-right-radius:20px ;
+   border-bottom-right-radius:20px ;
 }
 .maindiv{
     width: 400px;
     text-align: center;
     background-color: white;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
 }
 .log{
     font-size: 30px;
@@ -73,5 +80,13 @@ body{
 }
 
 .subdiv{
-    background-image:linear-gradient(to right rgb(255, 70, 126) rgb(226, 54, 120)) ;
+    
+    text-align:center ;
+    background-image:linear-gradient(to right, rgb(255, 70, 126), rgb(224, 74, 132)) ;
+   padding: 200px 15px;
+   width: 400px;
+   color: white;
+   font-size: large;
+   border-top-right-radius:20px ;
+   border-bottom-right-radius:20px ;
 }
